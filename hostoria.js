@@ -1007,7 +1007,7 @@ case "allmenu": {
     LuxeBot.sendMessage(m.chat, { react: { text: `✅`, key: m.key } });
 }
 break
-case "ownermenu": {
+case "ownermenuuu": {
     LuxeBot.sendMessage(m.chat, { react: { text: `⏱️`, key: m.key } });
     let teksmenu = `${ownermenu(prefix)}`;
 
