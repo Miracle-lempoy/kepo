@@ -938,7 +938,7 @@ async function getCookies() {
 //~~~~~~~~~~~ Command ~~~~~~~~~~~//
 
 switch (command) {
-case "menu": {
+case "allmenu": {
     LuxeBot.sendMessage(m.chat, { react: { text: `⏱️`, key: m.key } });
     let teksmenu = `${menu(prefix)}`;
 
